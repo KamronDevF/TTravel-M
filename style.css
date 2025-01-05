@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#hp{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    background: linear-gradient(to right, #0E1C26, #2A454B, #294861);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(218, 218, 218);
+    font-weight: 900;
+}
+#img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img button{
+    padding: 17px 25px;
+    background-color: #BEB15B;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 0px 0px 9px 0px #D5CFAC;
+    border: none;
+    position: absolute;
+    color: blanchedalmond;
+    transition: 0.7s ease-in;
+}
+#img button:hover{
+    transform: scale(15deg, 5deg);
+}
+.but a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+#img img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    background: linear-gradient(to right, #0E1C26, #2A454B, #294861);
+    align-items: center;
+}
+#light{
+    color: #BEB15B;
+    font-size: 24px;
+}
+#start p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.cub{
+    width:70px;
+    margin-top: 30px;
+    border: 3px solid rgb(132, 153, 118);
+    height: 70px;
+    color: blanchedalmond;
+    background: linear-gradient(to right, #3F3F42, #5D5D3C);
+    transition: 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s a{
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+    opacity: 0;
+    text-decoration: none;
+    color: aliceblue;
+}
+.cub:hover, .s a:hover{
+    cursor: pointer;
+    animation: a 1s;
+    transform: rotate(1440deg);
+    opacity: 1;
+}
+#cards{
+    width: 100%;
+    height: 600px;  
+    border-top: 40px; 
+}
+#cards .container{
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/bg.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    margin-top: 5px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.6s ease-in;
+    align-items: center;
+    border: 1px solid black;
+}
+.card img{
+    width: 100%;
+    margin-top: -53px;
+    height: 320px;
+}
+.ch{
+    width: 100%;
+    height: 6px;
+    background: #0E1C26;
+}
+.card .d1{
+    color: cornsilk;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 23px;
+}
+.card .d2{
+    color: cornsilk;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 23px;
+}
+.card .d3{
+    color: cornsilk;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    text-decoration: none;
+}
+.card:hover{
+    transform: matrix(1, 0.3, 0, 1, 0, 1);
+}
+
+/* Past */
+
+#dark{
+    color: #969696;
+    font-size: 24px;
+}
+.containerp{
+    width: 100%;
+    background: linear-gradient(to right, #1f140d,#9b8074);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startp{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    background: linear-gradient(to right, #1f140d,#9b8074);
+    align-items: center;
+}
+#startp p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+#cards .containerp{
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/castle.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Future */
+
+#darkf{
+    color: #00eeff;
+    font-size: 24px;
+}
+.containerf{
+    width: 100%;
+    background: linear-gradient(to right, #01010b,#0132c5, #9603c7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startf{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    background: linear-gradient(to right, #01010b,#0132c5, #9603c7);
+    align-items: center;
+}
+#startf p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+#cards .containerf{
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/beep.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
